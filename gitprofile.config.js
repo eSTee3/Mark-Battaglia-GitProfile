@@ -3,8 +3,8 @@
 const config = {
   github: {
     username: 'eSTee3', // Your GitHub org/user name. (Required)
-    sortBy: 'stars', // stars | updated
-    limit: 30, // How many projects to display.
+    sortBy: 'updated', // stars | updated
+    limit: 10, // How many projects to display.
     exclude: {
       forks: false, // Forked projects will not be displayed if set to true.
       projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
@@ -14,13 +14,13 @@ const config = {
     linkedin: 'mark-battaglia-0990a08',
     twitter: 'TagsxA',
     mastodon: '@eSTee3@mastodon.social',
-    facebook: '',
+    facebook: 'mark.battaglia.773',
     instagram: '',
     dribbble: '',
     behance: '',
     medium: '',
     dev: '',
-    stackoverflow: '', // format: userid/username
+    stackoverflow: '21672641/estee3', // format: userid/username
     skype: '',
     telegram: '',
     website: 'https://estee3.github.io/React-Portfolio/',
@@ -32,20 +32,24 @@ const config = {
       'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
     'JavaScript',
     'React.js',
+    'HTML',
     'Node.js',
-    'Nest.js',
+    'MSSQL',
+    'DB2',
+    'NoSQL',
     'MySQL',
     'PostgreSQL',
+    'MongoDB',
+    'Mongoose',
     'Git',
-    'Docker',
-    'PHPUnit',
+    'MERN',
     'CSS',
     'Antd',
     'Tailwind',
+    'Web, 3rd Party and Server-Side APIs',
+    'OOP'
   ],
   experiences: [
     {
@@ -73,10 +77,10 @@ const config = {
   ], */
   education: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'University of Minnesota',
+      degree: 'Full Stack Coding Bootcamp',
+      from: '2022',
+      to: '2023',
     },
     {
       institution: 'Institution Name',
