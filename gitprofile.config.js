@@ -91,11 +91,11 @@ const config = {
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
-      title: 'Project Name',
+      title: 'ViewFaster',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+        'First BootCamp group project application',
+      imageUrl: './src/assets/ViewFaster.png',
+      link: 'https://estee3.github.io/ViewFaster/',
     },
     {
       title: 'Project Name',
