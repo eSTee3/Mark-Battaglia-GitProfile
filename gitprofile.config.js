@@ -29,7 +29,7 @@ const config = {
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://docs.google.com/document/d/1DYXIk_xmn7nFi1gFFhGxVRCWmhWCiLg4Ymti9Uau2GQ/edit?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'JavaScript',
@@ -46,8 +46,6 @@ const config = {
     'Git',
     'MERN',
     'CSS',
-    'Antd',
-    'Tailwind',
     'Web, 3rd Party and Server-Side APIs',
     'OOP'
   ],
@@ -182,11 +180,11 @@ const config = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
+  footer: `Made by <a 
       class="text-primary" href="https://github.com/arifszn/gitprofile"
       target="_blank"
       rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+    >eSTee3</a> and ❤️`,
 };
 
 export default config;
