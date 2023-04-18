@@ -18,7 +18,7 @@ const config = {
     instagram: '',
     dribbble: '',
     behance: '',
-    medium: '',
+    medium: 'tagsxa',
     dev: '',
     stackoverflow: '21672641/estee3', // format: userid/username
     skype: '',
@@ -107,8 +107,8 @@ const config = {
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    source: 'medium', // medium | dev
+    username: 'tagsxa', // to hide blog section, keep it empty
     limit: 2, // How many posts to display. Max is 10.
   },
   googleAnalytics: {
@@ -120,7 +120,7 @@ const config = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'winter',
+    defaultTheme: 'night',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
